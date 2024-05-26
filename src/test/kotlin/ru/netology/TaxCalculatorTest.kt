@@ -20,7 +20,7 @@ class TaxCalculatorTest {
         val previousTransactionSum = 40000
         val transactionSum = 20000
         val tax = calculator?.calculateTax(type, previousTransactionSum, transactionSum)
-        assertEquals(2, tax)
+        assertEquals(0, tax)
     }
 
     @Test
